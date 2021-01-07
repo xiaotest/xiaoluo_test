@@ -1,0 +1,22 @@
+{
+    "name": "yancoo.cn/test",
+    "description": "test",
+    "type": "1",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "xiaoluo",
+            "email": "1370177585@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+           "Siam\\":"src/siam",
+            "Siam1\\":"src/siam1"
+        }
+    }
+}
